@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas3 HTML - lailanoviasari</title>
+
+        <!-- begin :: style css -->
+        <!-- untuk mempercantik dan merapikan tampilan -->
+        <style>
+            /* begin :: css for header */
+            table.header {
+                text-align: center; 
+                width: 100%; 
+                background-color: rgb(19, 12, 12); 
+                color: pink;
+            }
+            /* end :: css for header */
+            /* begin :: css for content */
+            table.content {
+                width: 75%; 
+                padding: 20px;
+            }
+            td.padding100 {
+                padding-right: 100px;
+            }
+            h3.title {
+                border-style: none none solid none; 
+                border-width: 1px; 
+                padding-bottom: 10px; 
+                width: max-content;
+            }
+            p.paragraph {
+                line-height: 35px; 
+                text-align: justify;
+            }
+            td.sidebar {
+                height: 300px; 
+                border-style: solid; 
+                border-width: 1px; 
+                width: 200px;
+            }
+            /* end :: css for content */
+            /* begin :: css for footer */
+            footer {
+                text-align: center; 
+                width: 100%; 
+                background-color: rgb(19, 12, 12); 
+                color: pink; 
+                padding: 1px;
+            }
+            /* end :: css for footer */
+        </style>
+        <!-- end :: style css -->
+    </head>
+    <body>
+        <!-- begin :: header -->
+        <header>
+            <table class="header">
+                <tr>
+                    <td><h3>Home</h3></td>
+                    <td><h3>News</h3></td>
+                    <td><h3>Drama</h3></td>
+                    <td><h3>About</h3></td>
+                </tr>
+            </table>
+            <img src="assets/1the-first-responder_3.jpeg" width="100%" alt>
+        </header>
+        <!-- end :: header -->
+
+        <!-- begin :: content -->
+        <!-- menggunakan tabel karena agar lebih mudah untuk mengatur tata letaknya -->
+        <table class="content" align="center">
+            <tr>
+                <!-- begin :: title n content -->
+                <td class="padding100">
+                    <h3 class="title">The First Responders 2 (2023)</h3>
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Atque pariatur nemo perferendis voluptatum,
+                        esse accusantium suscipit facere enim eligendi
+                        impedit architecto neque, iure cupiditate quia
+                        eveniet sunt fugiat numquam at aliquam quas! Qui
+                        tempore rerum nihil obcaecati sit minus iure. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptate inventore veniam ipsa explicabo numquam
+                        accusamus maxime enim minima voluptatum maiores!
+                    </p>
+                </td>
+                <!-- end :: title n content -->
+                <!-- begin :: sidebar -->
+                <td class="sidebar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Drama</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </td>
+                <!-- end :: sidebar -->
+            </tr>
+        </table>
+        <!-- end :: content -->
+
+        <!-- begin :: footer -->
+        <footer>
+            <p>All credits &copy; 2023 by lailanoviasari</p>
+        </footer>
+        <!-- endd :: footer -->
+    </body>
+</html>
