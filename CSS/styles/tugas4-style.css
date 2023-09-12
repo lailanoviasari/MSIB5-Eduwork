@@ -1,0 +1,74 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.bg {
+    background-image: url(img/get.png);
+    background-size: cover ;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 45% 10% 45%;
+}
+
+.line {
+    border-top: 1px solid black;
+}
+
+.container {
+    width: 20%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px 40%;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    color: white;
+    background-color: #3797EF;
+    border: none;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.logo-ig {
+    width: 50%;
+    margin: 0% 25%;
+}
+
+.text-fb {
+    font-weight: bold;
+    color: #3797EF;
+}
+
+.fs-10 {    
+    font-size: 10pt;
+}
+
+.fs-8 {
+    font-size: 8pt;
+}
+
+.text-center {
+    text-align: center;
+}
+
