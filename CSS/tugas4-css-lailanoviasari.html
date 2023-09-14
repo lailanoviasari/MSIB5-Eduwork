@@ -5,11 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tugas 4 - CSS - Laila Novia Sari</title>
 
-        <link rel="stylesheet" href="styles/tugas4-style.css" type="text/css">
+        <link rel="stylesheet" href="styles/tugas4-style-css.css"
+            type="text/css">
     </head>
     <body>
-        <div class="bg">
-            <div class="container">
+        <div class="container-large inline">
+            <div class="img">
+                <img src="img/Screenshot 2023-09-14 203018.png" class="inline ">
+            </div>
+            <div class="container inline">
                 <img src="img/ig.png" class="logo-ig">
                 <form action="submit">
                     <input type="text" name="username" id="username"
@@ -18,7 +22,7 @@
                         placeholder="Password">
                     <button class="button disabled" type="submit">Log In</button>
                 </form>
-                <div class="grid-container">
+                <div class="grid-container text-center">
                     <div class="line"></div>
                     <div>OR</div>
                     <div class="line"></div>
@@ -30,14 +34,42 @@
                 </div>
                 <p class="fs-8 text-center">Forgot password?</p>
             </div>
-            <div class="container text-center fs-10">
-                Don't have an account? <a href="#">Sign up</a>
+            <div class="container inline text-center fs-10">
+                Don't have an account? <a href="#" class="signUp-text">Sign up</a>
             </div>
-            <div class="container text-center fs-10">
+            <div class="container-getTheapp inline text-center fs-10">
                 Get the app
                 <br>
                 <br>
                 <img src="img/get.png" width="100%" alt>
+            </div>
+        </div>
+
+        <div class="container-large inline" style="margin-top: 20px;">
+            <div style="margin: 0 18%;">
+                <a href="#" class="list-footer">About</a> 
+                <a href="#" class="list-footer">Blog</a>
+                <a href="#" class="list-footer">Jobs</a>
+                <a href="#" class="list-footer">Help</a>
+                <a href="#" class="list-footer">API</a>
+                <a href="#" class="list-footer">Parivacy</a>
+                <a href="#" class="list-footer">Terms</a>
+                <a href="#" class="list-footer">Top Account</a>
+                <a href="#" class="list-footer">Hashtags</a>
+                <a href="#" class="list-footer">Locations</a>
+            </div>
+            <div style="margin: 0 23%;">
+                <a href="#" class="list-footer">Beauty</a>
+                <a href="#" class="list-footer">Dance</a>
+                <a href="#" class="list-footer">Fitness</a>
+                <a href="#" class="list-footer">Food & Drink</a>
+                <a href="#" class="list-footer">Home & Garden</a>
+                <a href="#" class="list-footer">Music</a>
+                <a href="#" class="list-footer">Virtual Arts</a>
+            </div>
+            <div style="margin: 0 35%;">
+                <p class="list-footer">English <span>&nabla;</span></p>
+                <p class="list-footer">&copy; 2023 Instagram from Facebook</p>
             </div>
         </div>
     </body>

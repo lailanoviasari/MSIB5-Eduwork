@@ -23,8 +23,9 @@ img {
 }
 
 .line {
+    margin-top: 5px;
     width: 30%;
-    border-top: 2px solid rgb(255, 230, 0);
+    border-top: 3px solid rgb(255, 230, 0);
 }
 
 button {
