@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    border: 5px solid black;
+    background-color: #7ec9ff;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(19, 12, 12);
+    color: #7ec9ff;
+}
+
+.img-header {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.table-sidebar {
+    width: 100%;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.padding100 {
+    padding-right: 100px;
+}
+
+.title {
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    width: max-content;
+}
+
+.paragraph {
+    line-height: 35px;
+    text-align: justify;
+}
+
+.sidebar {
+    font-size: 11pt;
+    background-color: black;
+    border: 2px solid;
+    width: 250px;
+    padding: 20px;
+}
+
+a {
+    color: #7ec9ff;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(19, 12, 12);
+    color: #7ec9ff;
+    padding: 1px;
+}
